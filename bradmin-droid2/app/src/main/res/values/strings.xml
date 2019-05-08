@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Better Ride Supervisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_operators">Operators</string>
+    <string name="mock_text">Mock_text</string>
+    <string name="newimage">Newimage</string>
+    <string name="title_activity_project">Project</string>
+    <string name="title_activity_operator">Operator</string>
+    <string name="title_activity_session">Session</string>
+    <string name="end_time">End time</string>
+    <string name="start_time">Start time</string>
+    <string name="date">Date</string>
+    <string name="first_avenue">First avenue</string>
+    <string name="second_avenue">Second avenue</string>
+    <string name="edit_item">edit</string>
+    <string name="delete_item">delete</string>
+    <string name="title_activity_edit_project">Edit Project</string>
+    <string name="title_activity_new_project">New Project</string>
+    <string name="project_name">Project name</string>
+    <string name="project_date">Project date</string>
+    <string name="error_proj_date">Enter a Project date</string>
+    <string name="error_name_proj">Enter a Project name</string>
+    <string name="save_name">SAVE</string>
+    <string name="title_activity_new_operator">NewOperatorActivity</string>
+    <string name="operator_name">operator name</string>
+    <string name="user_name">user name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">email</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_analytics">Analytics</string>
+
+
+
+    <string name="new_project">New project</string>
+
+
+    <string name="title_activity_edit_operator">Editar Operador</string>
+
+    <string name="avenue_1">Avenue 1</string>
+    <string name="avenue_name">Avenue name</string>
+    <string name="avenue_2">Avenue 2</string>
+    <string name="error_avenue_name">Enter an Avenue name</string>
+    <string name="title_sessions">Sessions</string>
+
+    <string name="title_activity_log_in">Log in</string>
+    <string name="title_activity_counting_sessions">Sessions</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_counting">Counting</string>
+    <string name="title_activity_reporting">Reports</string>
+    <string name="title_activity_change_password">Change password</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_nbetterride">Welcome to BetterRide</string>
+</resources>

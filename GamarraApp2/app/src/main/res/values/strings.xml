@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GamarraApp</string>
+    <string name="title_categories">Categorias</string>
+    <string name="title_bag">Bolsa</string>
+    <string name="title_profile">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

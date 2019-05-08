@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_project"
+        android:layout_height="72dp"
+        android:layout_width="match_parent">
+
+    <ImageView
+            android:id="@+id/projectImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/project"
+            android:layout_margin="@dimen/default_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/newimage"/>
+
+    <TextView
+            android:id="@+id/titleProjectTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mock_text"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginTop="17dp"
+            android:layout_marginStart="@dimen/default_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/projectImageView"/>
+
+    <TextView
+            android:id="@+id/dateProjectTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/mock_text"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/projectImageView"/>
+
+</android.support.constraint.ConstraintLayout>

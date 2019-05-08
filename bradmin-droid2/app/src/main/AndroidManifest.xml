@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.betterride.bradmin">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+
+    <!-- End: ShortcutBadger -->
+    <application
+            android:name=".BradminApp"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".viewcontrollers.activities.MainActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.ProjectActivity"
+                android:label="@string/title_activity_project"
+                android:launchMode="singleTop"
+                android:parentActivityName=".viewcontrollers.activities.MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.OperatorActivity"
+                android:label="@string/title_activity_operator"
+                android:parentActivityName=".viewcontrollers.activities.MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.SessionActivity"
+                android:label="@string/title_activity_session"
+                android:launchMode="singleTop"
+                android:parentActivityName=".viewcontrollers.activities.ProjectActivity"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".viewcontrollers.activities.EditProjectActivity"
+                android:label="@string/title_activity_edit_project"
+                android:parentActivityName=".viewcontrollers.activities.ProjectActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.ProjectActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.NewProjectActivity"
+                android:label="@string/title_activity_new_project"
+                android:parentActivityName=".viewcontrollers.activities.MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.NewOperatorActivity"
+                android:label="@string/title_activity_new_operator"
+                android:parentActivityName=".viewcontrollers.activities.MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.ProfileActivity"
+                android:label="@string/title_activity_profile"
+                android:parentActivityName=".viewcontrollers.activities.MainActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.WelcomeActivity"
+                android:label="@string/title_activity_welcome"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.LoginActivity"
+                android:label="@string/app_name"
+                android:parentActivityName=".viewcontrollers.activities.WelcomeActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.WelcomeActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.RegisterActivity"
+                android:label="@string/title_activity_register"
+                android:parentActivityName=".viewcontrollers.activities.LoginActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.LoginActivity"/>
+        </activity>
+        <activity
+                android:name=".viewcontrollers.activities.AnalyticsActivity"
+                android:label="@string/title_activity_analytics"
+                android:launchMode="singleTop"
+                android:parentActivityName=".viewcontrollers.activities.SessionActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.betterride.bradmin.viewcontrollers.activities.SessionActivity"/>
+        </activity>
+    </application>
+
+</manifest>
